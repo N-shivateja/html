@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+     
+      header{
+        border: solid black;
+        text-align: center;
+        padding: 1px;
+        background-color: cornflowerblue;
+      }
+      nav{
+        float: right;
+        width: 30%;
+        height: 300%;
+        background-color: #ccc;
+        padding: 20px;
+      }
+      article{
+        float: left;
+        padding: 20px;
+        width: 70%;
+        height: 300%;
+        background-color: #f1f1f1;
+
+      }
+      section::after{
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
+      footer{
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+      
+        
+      
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>CMR GROUP OF INSTITUTIONS</h2>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="https://cmrithyderabad.edu.in/">cmrit</a></li>
+          <li><a href="https://cmritautonomous.org/beeserp/Login.aspx">cmrit student Login</a></li>
+          <li><a href="http://119.235.48.117/CMRIT/">cmrit online leaves</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h1>CMRIT</h1>
+        <p>CMRIT Hyderabad courses are offered in undergraduate, post graduate and PhD levels with a variety of specialisations. The institution seeks to give great educational facilities to its students through its comprehensive CMRIT Hyderabad fees structure and dynamic CMRIT Hyderabad course list. The CMRIT Hyderabad courses are approved by AICTE. </p>
+        <p>Students are admitted to UG and PG courses depending on their achievement in the entrance exams. CMR Institute of Technology Hyderabad fees for MBA in finance is Rs 65,000 annually. CMR Institute of Technology B.Tech in CSE with Cyber Security fees is Rs 2,38,000 annually. CMR Institute of Technology Hyderabad fees for M.Tech in computer science and engineering stands at Rs 60,000 annually.</p>
+      </article>
+    </section>
+    <footer>
+      <p>THINK PLACEMENT THINK CMR</p>
+    </footer>
+  </body>
+</html>
